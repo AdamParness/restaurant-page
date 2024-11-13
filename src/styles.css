@@ -33,11 +33,10 @@ nav > a {
     width: calc(66%);
     grid-template-columns: repeat(2, 1fr);
     margin: 50px auto;
-    gap: 0px;  /* Optional: adds space between grid items */
     justify-content: space-evenly;
-  justify-items: center;
-  align-content: space-evenly;
-  align-items: center;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
 }
 
 .grid-item{
