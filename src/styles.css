@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    background-color: #D2B48C;
+    color: #5C4033;
+  }
+
+h1 {
+    text-align: center;
+    color: #5C4033;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > a {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #F5F5F5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    width: calc(66%);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px auto;
+    gap: 0px;  /* Optional: adds space between grid items */
+    justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.grid-item{
+    word-wrap: break-word;
+    width: 25ch;
+    
+}
